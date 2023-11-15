@@ -1,0 +1,109 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4076040TC_LNO",
+    "originalLanguage": "en"
+  },
+  "externalName": "YYS4076040TC_LNO",
+  "type": "text",
+  "typeDetails": {
+    "length": 15
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "TC Line No.",
+      "fieldTooltip": "TC Line No.",
+      "fieldHeading": "TC Line No."
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_SALESCONTRACTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "A_SALESORDERITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "A_SALESORDERITEMSIMULATION",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "A_SALESQUOTATIONITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_FLDLOGSPROCRCPTCSTMFLDEXTN",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTITEMBASIC",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVITEMTP",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYITEMTP",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYITEMTP",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_SALES_CONTRACT_SRV 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_SRV 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_SIMULATION_SRV 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "odataServiceKey": "API_SALES_QUOTATION_SRV 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_BILDOC_ITEM",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_BILDOC_ITEM"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_DELIVERY_ITEM",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_DELIVERY_ITEM"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_SALESDOCITEM_GUI",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ]
+}
